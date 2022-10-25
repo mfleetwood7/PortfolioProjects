@@ -18,7 +18,7 @@ order by 1,2
 
 Select Location, date, total_cases, Population, (total_cases/Population)*100 as PercentPopulationInfected
 From PortfolioProject..CovidDeaths$
-where location like '%states%'
+--where location like '%states%'
 order by 1,2
 
 -- Looking at countries with highest infection rate compared to Population
